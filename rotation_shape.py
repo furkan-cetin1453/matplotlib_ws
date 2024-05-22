@@ -68,6 +68,7 @@ for i in range(len(points)):
         line_list.append(point)
 
 
+
 # Create Slider
 ax_slider_x = plt.axes([0.25, 0.1, 0.65, 0.03])
 rotate_slider = Slider(ax_slider_x, 'Rotate Angle', 0, 360)
